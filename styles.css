@@ -1,0 +1,47 @@
+.list ul{
+display: flex;
+gap: 10px;
+}
+.list li{
+list-style-type: none;
+}
+.Right {
+position: relative;
+left: 42%;
+
+}
+.left{
+position: relative;
+right: 3%;
+
+}
+.details{
+display: flex;
+position: relative;
+gap: 20px;
+column-gap: 20%;
+align-items: center;
+margin:10px;
+
+}
+.contact{
+background-color: blue;
+border-radius: 10px;
+width: 68px;
+
+}
+.passport{
+clip-path:    ellipse(42% 45% at 50% 50%);
+background-color: royalblue
+
+}
+body{
+margin: 10%;
+
+}
+.list a{
+text-decoration: none;
+font-size: 25px;
+
+}
+

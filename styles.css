@@ -1,47 +1,107 @@
-.list ul{
-display: flex;
-gap: 10px;
-}
-.list li{
-list-style-type: none;
-}
-.Right {
-position: relative;
-left: 42%;
-
-}
-.left{
-position: relative;
-right: 3%;
-
-}
-.details{
-display: flex;
-position: relative;
-gap: 20px;
-column-gap: 20%;
-align-items: center;
-margin:10px;
-
-}
-.contact{
-background-color: blue;
-border-radius: 10px;
-width: 68px;
-
-}
-.passport{
-clip-path:    ellipse(42% 45% at 50% 50%);
-background-color: royalblue
-
-}
-body{
-margin: 10%;
-
-}
-.list a{
-text-decoration: none;
-font-size: 25px;
-
-}
-
+.list{
+    display: flex;
+    gap: 10px;
+    }
+    .list ul{
+        display: flex;
+        gap: 10px;
+        }
+    .list li{
+    list-style-type: none;
+    }
+    .list p{
+        font-weight: 500;
+        font-size: 2em;
+    }
+    .Right {
+    position: relative;
+    left: 82%;
+    
+    }
+    .left{
+    position: relative;
+    right: 3%;
+    
+    }
+    .details{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    column-gap: 20%;
+    align-items: center;
+    margin:10px;
+    
+    }
+    .contact{
+    background-color: blue;
+    border-radius: 10px;
+    width: 68px;
+    
+    }
+    .passport{
+    clip-path:    ellipse(42% 45% at 50% 50%);
+    background-color: royalblue
+    
+    }
+    body{
+    margin: 5%;
+    
+    }
+    .list a{
+    text-decoration: none;
+    font-size: 25px;
+    }
+    .foot{
+        display: flex;
+        
+        }
+        .foot img{
+            width: 40px;
+            height: 40px;
+        
+        
+        }
+    
+    
+    @media only screen and (max-width: 720px){
+        .passport{
+            
+            background-color: royalblue;
+           }
+    
+    .passport img{
+        height: 200px;
+        width: 200px;
+    }
+    .Right {
+        position: static;
+        
+        }
+    .left{
+            position: static;
+            
+            }
+    
+    .list{
+        display: block;
+    }
+    .list p{
+        padding-left: 20px;
+    }
+    .details{
+        display: flex;
+       flex-direction: column;
+        gap: 20px;
+        column-gap: 20%;
+        align-items: center;
+        margin:10px;
+        
+        }
+        .foot{
+            padding-left: 100px;
+        }
+    }
+    
+    
+    
+    
